@@ -18,5 +18,6 @@ if usernameInput == "admin" and passwordInput == "1234" :
         inputValue = int(input("How many do you want? >>"))
         print("Total:",500*inputValue,"THB")
         print("Enjoy your meal!")
+    else : print("Get out of my shop!!")
 else :
     print("Error")
