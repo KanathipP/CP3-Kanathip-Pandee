@@ -1,6 +1,6 @@
-print("Distance Calculator")
+print("Velocity Calculator")
 '''input'''
-v = float(input("input velocity(m/s):"))
+s = float(input("input distance(m):"))
 t = float(input("input time(s):"))
 '''output'''
-print(v*t,"km/h")
+print(s/t,"m/s")
